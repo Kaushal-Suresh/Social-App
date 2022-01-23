@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+.logo {
+    background-color: #DFE6E9;
+    border: 1px solid #0000001A;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+form {
+    position: absolute;
+    background-color: #F1F2F6;
+    left: 30%;
+    width: 540px;
+    height: 565px;
+    margin-top: 45px;
+}
+
+label {
+    font-weight: bold;
+    color: #636E72;
+    height: 28px;
+    margin-left: 65px;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    width: 408px;
+    height: 45px;
+    margin-left: 65px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+input[type="password"] {
+    margin-bottom: 8px;
+}
+
+.forgot-pwd {
+    color: #3B7DDD;
+    height: 22px;
+    margin-left: 65px;
+}
+
+input[type="submit"] {
+    background-color: #E056FD;
+    border: none;
+    color: #FFFFFF;
+    width: 400px;
+    height: 35px;
+    font-size: 23px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 67px;
+    margin-bottom: 13px;
+}
+
+small div {
+    color: #6C757D;
+    height: 22px;
+    margin-left: 200px;
+    margin-bottom: -17px;
+}
+
+a {
+    color: #3B7DDD;
+    margin-left: 240px;
+    text-decoration: none;
+}

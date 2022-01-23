@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.input-group {
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: #636E72;
+    font-size: 15px;
+}
+
+input[type="text"], input[type="tel"] {
+    height: 40px;
+    width: 336px;
+    border: 1px solid #000000;
+    padding-left: 10px;
+}
+
+.name input {
+    width: 334px;
+}
+
+input[type="tel"] {
+    width: 694px;
+}
+
+.dob {
+    margin-left: 350px;
+}
+
+.dob-label {
+    margin-left: 15px;
+}
+
+.gender {
+    width: 700px;
+    padding-left: 3px;
+}
+
+.radio-btn {
+    font-weight: normal;
+    color: #000000;
+    padding-left: 5px;
+}
+
+.radio-btn input[type="radio"] {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+label[for="female"] {
+    margin-left: 250px;
+}
+
+label[for="other"] {
+    float: right;
+}
+
+.status {
+    width: 690px;
+    margin-top: 19px;
+}
+
+textarea {
+    resize: none;
+    width: 694px;
+    border: 1px solid #000000B2;
+    height: 75px;
+    padding: 7px;
+}
+
+input[type="submit"] {
+    background-color: #E056FD;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    width: 375px;
+}
